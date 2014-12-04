@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    quine_mccluskey.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    quine_mccluskey.h
 
 FORMS    += mainwindow.ui
