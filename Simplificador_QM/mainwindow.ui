@@ -13,10 +13,16 @@
   <property name="windowTitle">
    <string>SimplificadorQM</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="graphics.qrc">
+    <normaloff>:/ico/res/SQMLogo.png</normaloff>:/ico/res/SQMLogo.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget"/>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="graphics.qrc"/>
+ </resources>
  <connections/>
 </ui>

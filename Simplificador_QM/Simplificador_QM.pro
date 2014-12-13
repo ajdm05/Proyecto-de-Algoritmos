@@ -20,3 +20,6 @@ HEADERS  += mainwindow.h \
     quine_mccluskey.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    graphics.qrc
