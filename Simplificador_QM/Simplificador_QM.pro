@@ -14,10 +14,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    quine_mccluskey.cpp
+    quine_mccluskey.cpp \
+    booleanexpression.cpp
 
 HEADERS  += mainwindow.h \
-    quine_mccluskey.h
+    quine_mccluskey.h \
+    booleanexpression.h
 
 FORMS    += mainwindow.ui
 
