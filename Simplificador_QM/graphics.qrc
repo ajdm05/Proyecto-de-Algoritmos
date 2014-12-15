@@ -2,4 +2,10 @@
     <qresource prefix="/ico">
         <file>res/SQMLogo.png</file>
     </qresource>
+    <qresource prefix="/txt">
+        <file>res/Gramatica.txt</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>res/Automata.jpg</file>
+    </qresource>
 </RCC>

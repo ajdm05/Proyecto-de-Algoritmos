@@ -15,11 +15,30 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     quine_mccluskey.cpp \
-    booleanexpression.cpp
+    AndNode.cpp \
+    ContentReader.cpp \
+    IdNode.cpp \
+    Lexer.cpp \
+    LexicalException.cpp \
+    NotNode.cpp \
+    OrNode.cpp \
+    Parser.cpp \
+    SyntacticException.cpp \
+    Token.cpp
 
 HEADERS  += mainwindow.h \
     quine_mccluskey.h \
-    booleanexpression.h
+    AndNode.h \
+    ContentReader.h \
+    IdNode.h \
+    Lexer.h \
+    LexicalException.h \
+    Node.h \
+    NotNode.h \
+    OrNode.h \
+    Parser.h \
+    SyntacticException.h \
+    Token.h
 
 FORMS    += mainwindow.ui
 
