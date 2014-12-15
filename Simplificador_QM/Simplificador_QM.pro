@@ -14,7 +14,6 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         Windows\mainwindow.cpp \
-    quine_mccluskey.cpp \
     Expression\AndNode.cpp \
     Parsing\ContentReader.cpp \
     Expression\IdNode.cpp \
@@ -29,7 +28,6 @@ SOURCES += main.cpp\
     Algorithm/quine_mccluskey.cpp
 
 HEADERS  += Windows\mainwindow.h \
-    quine_mccluskey.h \
     Expression\AndNode.h \
     Parsing\ContentReader.h \
     Expression\IdNode.h \
