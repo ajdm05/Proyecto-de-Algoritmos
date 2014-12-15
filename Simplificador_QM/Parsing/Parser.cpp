@@ -6,11 +6,11 @@
  */
 
 #include "Parser.h"
-#include "AndNode.h"
-#include "IdNode.h"
-#include "NotNode.h"
-#include "SyntacticException.h"
-#include "OrNode.h"
+#include "Expression/AndNode.h"
+#include "Expression/IdNode.h"
+#include "Expression/NotNode.h"
+#include "Exceptions/SyntacticException.h"
+#include "Expression/OrNode.h"
 
 Parser::Parser(char* input) {
     lexer = new Lexer(input);
