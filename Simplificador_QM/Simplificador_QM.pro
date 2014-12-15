@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,34 +13,36 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
+        Windows\mainwindow.cpp \
     quine_mccluskey.cpp \
-    AndNode.cpp \
-    ContentReader.cpp \
-    IdNode.cpp \
-    Lexer.cpp \
-    LexicalException.cpp \
-    NotNode.cpp \
-    OrNode.cpp \
-    Parser.cpp \
-    SyntacticException.cpp \
-    Token.cpp
+    Expression\AndNode.cpp \
+    Parsing\ContentReader.cpp \
+    Expression\IdNode.cpp \
+    Parsing\Lexer.cpp \
+    Exceptions\LexicalException.cpp \
+    Expression\NotNode.cpp \
+    Expression\OrNode.cpp \
+    Parsing\Parser.cpp \
+    Exceptions\SyntacticException.cpp \
+    Parsing\Token.cpp \
+    Graphing\qcustomplot.cpp
 
-HEADERS  += mainwindow.h \
+HEADERS  += Windows\mainwindow.h \
     quine_mccluskey.h \
-    AndNode.h \
-    ContentReader.h \
-    IdNode.h \
-    Lexer.h \
-    LexicalException.h \
-    Node.h \
-    NotNode.h \
-    OrNode.h \
-    Parser.h \
-    SyntacticException.h \
-    Token.h
+    Expression\AndNode.h \
+    Parsing\ContentReader.h \
+    Expression\IdNode.h \
+    Parsing\Lexer.h \
+    Exceptions\LexicalException.h \
+    Expression\Node.h \
+    Expression\NotNode.h \
+    Expression\OrNode.h \
+    Parsing\Parser.h \
+    Exceptions\SyntacticException.h \
+    Parsing\Token.h \
+    Graphing\qcustomplot.h
 
-FORMS    += mainwindow.ui
+FORMS    += Windows\mainwindow.ui
 
 RESOURCES += \
     graphics.qrc

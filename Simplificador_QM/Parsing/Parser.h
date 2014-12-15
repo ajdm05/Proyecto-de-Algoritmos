@@ -10,7 +10,7 @@
 
 #include "ContentReader.h"
 #include "Lexer.h"
-#include "Node.h"
+#include "Expression/Node.h"
 
 
 class Parser {

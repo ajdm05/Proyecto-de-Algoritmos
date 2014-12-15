@@ -14,7 +14,7 @@
 
 #include "ContentReader.h"
 #include "Token.h"
-#include "LexicalException.h"
+#include "Exceptions/LexicalException.h"
 
 using namespace std;
 
