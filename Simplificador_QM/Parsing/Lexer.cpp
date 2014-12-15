@@ -31,6 +31,8 @@ void Lexer::InitDictionary(){
     singleSymbolDictionary["&"] = And;
     singleSymbolDictionary["|"] = Or;
     singleSymbolDictionary["~"] = Not;
+    singleSymbolDictionary["!"] = Not;
+    singleSymbolDictionary["^"] = And;
 }
 
 Token Lexer::NextToken(){
