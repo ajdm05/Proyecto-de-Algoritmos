@@ -13,7 +13,7 @@ public:
     bool evaluateExpression(map<string,bool> *values);
 private:
     Node* root;
-
+    bool evaluateNode(Node* node, map<string,bool>* values);
 };
 
 #endif // EXPRESSION_H

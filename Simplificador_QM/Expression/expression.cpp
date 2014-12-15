@@ -9,7 +9,7 @@ bool Expression::evaluateExpression(map<string, bool> *values)
     return evaluateNode(root, values);
 }
 
-bool evaluateNode(Node* node, map<string,bool>* values){
+bool Expression::evaluateNode(Node* node, map<string,bool>* values){
     if(node->getType() == AndNodeType){
         return evaluateNode( ((AndNode*)node)->getIzqNode() , values)
                 && evaluateNode( ((AndNode*)node)->getDerNode(), values);
