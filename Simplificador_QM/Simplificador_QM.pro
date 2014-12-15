@@ -25,7 +25,8 @@ SOURCES += main.cpp\
     Parsing\Parser.cpp \
     Exceptions\SyntacticException.cpp \
     Parsing\Token.cpp \
-    Graphing\qcustomplot.cpp
+    Graphing\qcustomplot.cpp \
+    Algorithm/quine_mccluskey.cpp
 
 HEADERS  += Windows\mainwindow.h \
     quine_mccluskey.h \
@@ -40,7 +41,8 @@ HEADERS  += Windows\mainwindow.h \
     Parsing\Parser.h \
     Exceptions\SyntacticException.h \
     Parsing\Token.h \
-    Graphing\qcustomplot.h
+    Graphing\qcustomplot.h \
+    Algorithm/quine_mccluskey.h
 
 FORMS    += Windows\mainwindow.ui
 
