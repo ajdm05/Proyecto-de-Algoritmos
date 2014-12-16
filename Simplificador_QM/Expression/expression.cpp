@@ -1,7 +1,8 @@
 #include "expression.h"
 
-Expression::Expression()
+Expression::Expression(Node* expr)
 {
+    root = expr;
 }
 
 bool Expression::evaluateExpression(map<string, bool> *values)

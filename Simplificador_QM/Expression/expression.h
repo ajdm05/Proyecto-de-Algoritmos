@@ -12,7 +12,7 @@ using namespace std;
 class Expression
 {
 public:
-    Expression();
+    Expression(Node* expr);
     bool evaluateExpression(map<string,bool> *values);
     vector<string> getVariableNames();
 private:
