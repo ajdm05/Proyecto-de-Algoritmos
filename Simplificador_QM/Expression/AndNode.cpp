@@ -1,10 +1,3 @@
-/* 
- * File:   AndNode.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 9:30 PM
- */
-
 #include "AndNode.h"
 
 AndNode::AndNode(Node* izq, Node* der) {

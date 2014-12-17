@@ -1,10 +1,3 @@
-/* 
- * File:   Lexer.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 8:51 PM
- */
-
 #include "Lexer.h"
 
 

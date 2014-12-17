@@ -1,10 +1,3 @@
-/* 
- * File:   parser.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 9:40 PM
- */
-
 #include "Parser.h"
 #include "Expression/AndNode.h"
 #include "Expression/IdNode.h"

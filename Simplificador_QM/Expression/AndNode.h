@@ -1,10 +1,3 @@
-/* 
- * File:   AndNode.h
- * Author: furan
- *
- * Created on December 14, 2014, 9:30 PM
- */
-
 #ifndef ANDNODE_H
 #define	ANDNODE_H
 

@@ -1,10 +1,3 @@
-/* 
- * File:   Lexer.h
- * Author: furan
- *
- * Created on December 14, 2014, 8:51 PM
- */
-
 #ifndef LEXER_H
 #define	LEXER_H
 

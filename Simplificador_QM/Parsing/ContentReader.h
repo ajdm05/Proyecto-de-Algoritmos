@@ -1,10 +1,3 @@
-/* 
- * File:   ContentReader.h
- * Author: furan
- *
- * Created on December 14, 2014, 8:52 PM
- */
-
 #ifndef CONTENTREADER_H
 #define	CONTENTREADER_H
 

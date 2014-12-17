@@ -1,10 +1,3 @@
-/* 
- * File:   IdNode.h
- * Author: furan
- *
- * Created on December 14, 2014, 9:31 PM
- */
-
 #ifndef IDNODE_H
 #define	IDNODE_H
 

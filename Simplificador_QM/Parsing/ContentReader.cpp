@@ -1,10 +1,3 @@
-/* 
- * File:   ContentReader.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 8:52 PM
- */
-
 #include "ContentReader.h"
 
 ContentReader::ContentReader(){

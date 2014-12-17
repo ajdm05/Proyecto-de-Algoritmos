@@ -1,10 +1,3 @@
-/* 
- * File:   parser.h
- * Author: furan
- *
- * Created on December 14, 2014, 9:40 PM
- */
-
 #ifndef PARSER_H
 #define	PARSER_H
 

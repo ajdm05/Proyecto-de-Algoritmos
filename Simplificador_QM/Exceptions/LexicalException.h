@@ -1,10 +1,3 @@
-/* 
- * File:   LexicalException.h
- * Author: furan
- *
- * Created on December 14, 2014, 8:53 PM
- */
-
 #ifndef LEXICALEXCEPTION_H
 #define	LEXICALEXCEPTION_H
 
