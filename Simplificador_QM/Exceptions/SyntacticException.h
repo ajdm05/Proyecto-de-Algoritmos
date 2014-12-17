@@ -1,10 +1,3 @@
-/* 
- * File:   SyntacticException.h
- * Author: furan
- *
- * Created on December 14, 2014, 10:52 PM
- */
-
 #ifndef SYNTACTICEXCEPTION_H
 #define	SYNTACTICEXCEPTION_H
 

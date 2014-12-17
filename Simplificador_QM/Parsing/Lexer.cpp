@@ -1,10 +1,3 @@
-/* 
- * File:   Lexer.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 8:51 PM
- */
-
 #include "Lexer.h"
 
 
@@ -31,6 +24,8 @@ void Lexer::InitDictionary(){
     singleSymbolDictionary["&"] = And;
     singleSymbolDictionary["|"] = Or;
     singleSymbolDictionary["~"] = Not;
+    singleSymbolDictionary["!"] = Not;
+    singleSymbolDictionary["^"] = And;
 }
 
 Token Lexer::NextToken(){

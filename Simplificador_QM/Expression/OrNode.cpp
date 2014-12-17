@@ -1,10 +1,3 @@
-/* 
- * File:   OrNode.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 9:30 PM
- */
-
 #include "OrNode.h"
 
 OrNode::OrNode(Node* izq, Node* der) {

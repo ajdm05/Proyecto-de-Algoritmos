@@ -1,10 +1,3 @@
-/* 
- * File:   NotNode.cpp
- * Author: furan
- * 
- * Created on December 14, 2014, 9:30 PM
- */
-
 #include "NotNode.h"
 
 NotNode::NotNode(Node* node) {
